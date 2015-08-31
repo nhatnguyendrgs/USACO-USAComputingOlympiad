@@ -71,7 +71,8 @@ void rdijkstra(int id){
 }
 
 int main(){
-
+	freopen("vacationgold.in","r",stdin);
+    	freopen("vacationgold.out","w",stdout);
 	scanf("%d%d%d%d", &N, &M, &K, &Q);
 	Adj.assign(N + 4, vii()); rAdj.assign(N + 4, vii());
 	for (int i = 1; i <= M; ++i){
